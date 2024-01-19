@@ -50,6 +50,7 @@
 .menu {
     display: flex;
     justify-content: center;
+    /* align-items: left; */
     flex-direction: row;
     align-items: center;
     z-index:1;
@@ -57,10 +58,13 @@
     margin-top: -65%;
     color: black;
     padding-top: 3%;
+    margin-left: 20%;
 }
 .menu li{
     list-style-type: none;
     font-size: 15px;
+    margin-top: 15%;
+    
 }
 .menu li a{
     color: white;
